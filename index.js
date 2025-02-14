@@ -1,5 +1,5 @@
 // index.js
-const { createThemes } = require("./tailwind-color/createThemes");
+const { createThemes } = require("./tailwind-color");
 const { toUpperCamelCase } = require("./tailwind-color/toUpperCamelCase");
 // const { ThemeColors } = require("./default-theme/theme");
 const colors = require("tailwindcss/colors");
