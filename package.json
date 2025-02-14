@@ -1,0 +1,24 @@
+{
+  "name": "@amj7/nativescript-tailwind-preset",
+  "version": "1.0.0",
+  "description": "NativeScript Tailwind CSS preset with custom colors and configurations",
+  "main": "index.js",
+  "files": [
+    "tailwind-color",
+    "tailwind-theme",
+    "index.js"
+  ],
+  "keywords": [
+    "nativescript",
+    "tailwind",
+    "tailwindcss",
+    "colors",
+    "theme",
+    "preset"
+  ],
+  "author": "ArthurMJ96",
+  "license": "MIT",
+  "peerDependencies": {
+    "tailwindcss": "^3.0.0"
+  }
+}
