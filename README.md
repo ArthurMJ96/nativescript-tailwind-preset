@@ -1,7 +1,7 @@
 This is just my personal quick mini theme for quick NativeScript proof-of-concepts.  
 It adds some quick Minimalist Color Layers for dark/light mode.  
-*-base-[100/200/300] for backgrounds.  
-*-[high/low/focus] for text.  
+`*-base-[100/200/300]` for backgrounds. (Ex: `bg-base-200`)  
+`*-[high/low/focus]` for text. (Ex: `text-high`)  
 And defines some handy NS based responsive modifiers:   
 ```js
                                         // Example usage:
@@ -23,7 +23,7 @@ npm i -D @amj7/nativescript-tailwind-preset
 ```
 
 
-## Example usage
+### Example usage
 
 In `tailwind.config.js`:
 ```js
@@ -69,6 +69,7 @@ module.exports = {
 }
 ```
 
+### Change theme
 Use your own theme (see `default-theme.js` for example)
 
 In `tailwind.config.js`:
